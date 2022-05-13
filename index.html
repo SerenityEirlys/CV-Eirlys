@@ -346,10 +346,12 @@
             var clients = setInterval(happyClients, 10)
             var coffee = setInterval(cupsCoffee, 10)
             var ravsub = setInterval(ravsub, 10)
-            let count1 = 1;
+            var ravshort = setInterval(ravshort, 10)
+            let count5 = 83000;
+            let count1 = 40;
             let count2 = 181154105;
-            let count3 = 472000;
-            let count4 = 1;
+            let count3 = 473000;
+            let count4 = 300;
     
             function projectDone() {
                 count1++
@@ -370,7 +372,7 @@
             function cupsCoffee() {
                 count3++
                 document.querySelector("#number3").innerHTML = count3
-                if (count3 == 475000) {
+                if (count3 == 476000) {
                     clearInterval(coffee)
                 }
             }
@@ -379,6 +381,13 @@
                 document.querySelector("#number4").innerHTML = count4
                 if (count4 == 1200) {
                     clearInterval(ravsub)
+                }
+            }
+            function ravshort() {
+                count5++
+                document.querySelector("#number5").innerHTML = count5
+                if (count5 == 86000) {
+                    clearInterval(ravshort)
                 }
             }
         </script>
