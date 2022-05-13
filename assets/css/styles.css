@@ -96,7 +96,7 @@ img {
 body.dark-theme {
   --title-color: hsl(var(--hue), 12%, 95%);
   --text-color: hsl(var(--hue), 12%, 75%);
-  --body-color: hsl(var(--hue), 40%, 8%);
+  --body-color: hsl(var(--hue), 0%, 17%);
   --container-color: hsl(var(--hue), 24%, 12%);
 }
 
@@ -109,7 +109,7 @@ body.dark-theme {
 }
 
 .dark-theme .button__gray:hover {
-  background-color: hsl(var(--hue), 24%, 16%);
+  background-color: hsl(var(--hue), 25%, 16%);
 }
 
 .dark-theme .filters__content {
@@ -245,7 +245,6 @@ body.dark-theme {
   column-gap: .25rem;
 }
 
-/*=============== BUTTONS ===============*/
 .button {
   display: inline-flex;
   align-items: center;
