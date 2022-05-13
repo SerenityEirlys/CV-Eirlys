@@ -4,13 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== FAVICON ===============-->
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
         
-        <!--=============== REMIX ICONS ===============-->
+
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-        <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Trang Thông Tin Cá Nhân Của Quốc</title>
@@ -109,7 +107,7 @@
                                 <div>
                                     <span class="projects__subtitle">Video Editor</span>
                                     <h3 class="projects__title">3D Montage & Hightlight</h3>
-                                    <a href="https://www.behance.net/gallery/133493431/Trailler-Editor" class="projects__button button button__small">
+                                    <a href="#" class="projects__button button button__small">
                                         <i class="ri-link"></i>
                                     </a>
                                 </div>
@@ -298,6 +296,43 @@
         </main>
 
         <footer class="footer container">
+
+            <p>
+
+
+
+
+                <br>
+            </p>
+            <p>
+                <br>
+            </p>
+            <p>
+                <br>
+            </p>
+            <p>
+                <br>
+            </p>
+            <p>
+                <br>
+            </p>
+            <div class="profile__info grid">
+            <div class="profile__info-group">
+                <p id="number4" class="number">145</p>
+                <span></span>
+                <p>Tổng Số Subscribe<br>Kênh RAV Shorts <i class="ri-youtube-fill"></i></p>
+            </div>
+                <div class="profile__info-group">
+                    <p id="number2" class="number">145</p>
+                    <span></span>
+                    <p>Tổng Lượt Xem<br>Kênh RAV <i class="ri-eye-2-line"></i></p>
+                </div>
+                <div class="profile__info-group">
+                    <p id="number3" class="number">145</p>
+                    <span></span>
+                    <p>Tổng Số Subscribe<br>Kênh RAV <i class="ri-youtube-fill"></i></p>
+                </div>
+            </div>
             <span class="footer__copy">
                 &#169; 2022 <a class="u-link" href="https://www.facebook.com/eirlysseren" target="_blank">EirlysCode</a>. All rigths reserved
             </span>
@@ -310,14 +345,16 @@
             var project = setInterval(projectDone, 40)
             var clients = setInterval(happyClients, 10)
             var coffee = setInterval(cupsCoffee, 10)
+            var ravsub = setInterval(ravsub, 10)
             let count1 = 1;
-            let count2 = 1;
-            let count3 = 1;
+            let count2 = 181154105;
+            let count3 = 470000;
+            let count4 = 1;
     
             function projectDone() {
                 count1++
                 document.querySelector("#number1").innerHTML = count1
-                if (count1 == 146) {
+                if (count1 == 145) {
                     clearInterval(project)
                 }
             }
@@ -325,7 +362,7 @@
             function happyClients() {
                 count2++
                 document.querySelector("#number2").innerHTML = count2
-                if (count2 == 89) {
+                if (count2 == 181155105) {
                     clearInterval(clients)
                 }
             }
@@ -333,8 +370,15 @@
             function cupsCoffee() {
                 count3++
                 document.querySelector("#number3").innerHTML = count3
-                if (count3 == 359) {
+                if (count3 == 456000) {
                     clearInterval(coffee)
+                }
+            }
+            function ravsub() {
+                count4++
+                document.querySelector("#number4").innerHTML = count4
+                if (count4 == 1200) {
+                    clearInterval(ravsub)
                 }
             }
         </script>
