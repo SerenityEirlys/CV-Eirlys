@@ -15,9 +15,9 @@ $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $fh = fopen('logs.txt', 'a'); 
 fwrite($fh, ''."".$ip ."\n");
 $keys = array(
-"Key",
+"Eirlys",
 
-"key1"
+"EirlysMup"
 ); 
 $sub = $_GET["key"];
 if (in_array($sub,$keys,TRUE)) {
